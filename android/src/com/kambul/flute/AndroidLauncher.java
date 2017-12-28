@@ -4,7 +4,7 @@ import android.os.Bundle;
 
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
-import com.kambul.flute.JoelFluteDemo;
+import com.kambul.flute.Demos.JoelFluteDemo;
 
 public class AndroidLauncher extends AndroidApplication {
 	@Override

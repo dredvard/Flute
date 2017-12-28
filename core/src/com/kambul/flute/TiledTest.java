@@ -38,7 +38,8 @@ public class TiledTest extends ApplicationAdapter implements InputProcessor {
         camera = new OrthographicCamera();
         camera.setToOrtho(false,w,h);
         camera.update();
-        tiledMap = new TmxMapLoader().load("data/MyCrappyMap.tmx");
+        //tiledMap = new TmxMapLoader().load("data/Level1.tmx");
+        tiledMap = new TmxMapLoader().load("data/Level0.tmx");
         tiledMapRenderer = new OrthogonalTiledMapRendererWithSprites(tiledMap);
         Gdx.input.setInputProcessor(this);
         texture = new Texture(Gdx.files.internal("data/pik_1.png"));

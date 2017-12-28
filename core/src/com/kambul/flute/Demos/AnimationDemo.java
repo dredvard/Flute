@@ -1,4 +1,4 @@
-package com.kambul.flute;
+package com.kambul.flute.Demos;
 
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.Gdx;
